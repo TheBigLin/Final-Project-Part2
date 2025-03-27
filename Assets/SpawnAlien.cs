@@ -1,17 +1,17 @@
 using UnityEngine;
 
-public class SpawnAlien : MonoBehaviour
+public class SpawnAliens : MonoBehaviour
 {
-    [SerializeField] GameObject spawnee;
-    [SerializeField] float sizeX = 1.0f;
-    [SerializeField] float sizeY = 1.0f;
-    [SerializeField] float SpawnCooldown = 2.0f;
+    [SerializeField] private GameObject spawnee;
+    [SerializeField] private float sizeX = 1.0f;
+    [SerializeField] private float sizeY = 1.0f;
+    [SerializeField] private float spawnCooldown = 2.0f;
 
     private float spawnTime;
 
     void Start()
     {
-        spawnTime = SpawnCooldown;
+        spawnTime = spawnCooldown;
     }
 
     void Update()
@@ -22,16 +22,21 @@ public class SpawnAlien : MonoBehaviour
         if (spawnTime <= 0)
         {
             Spawn();
-            spawnTime = SpawnCooldown; // Reset cooldown after spawning
+            spawnTime = spawnCooldown; // Reset cooldown after spawning
         }
     }
 
     void Spawn()
     {
+        if (spawnee == null)
+        {
+            Debug.LogWarning("Spawnee GameObject is not assigned.");
+            return;
+        }
+
         float xPos = (Random.value - 0.5f) * sizeX + transform.position.x;
         float yPos = (Random.value - 0.5f) * sizeY + transform.position.y;
 
-        var spawn = Instantiate(spawnee);
-        spawn.transform.position = new Vector3(xPos, yPos, 0);
+        Instantiate(spawnee, new Vector3(xPos, yPos, 0), Quaternion.identity);
     }
 }
