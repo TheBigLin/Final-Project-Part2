@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 90325d08ffbabf64d9b9f05bf84366f2
+guid: bc1e8db3ac2a1d74cb7619066d7aac8a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4942727625980076043
-    second: tile floor_0
+      213: 5257601804609174252
+    second: LOCKER (2)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tile floor_0
+      name: LOCKER (2)_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 177
-        width: 197
-        height: 163
+        x: 4
+        y: 19
+        width: 48
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b006d009698189440800000000000000
-      internalID: 4942727625980076043
+      spriteID: ceabe2e3cf0c6f840800000000000000
+      internalID: 5257601804609174252
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      tile floor_0: 4942727625980076043
+      LOCKER (2)_0: 5257601804609174252
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

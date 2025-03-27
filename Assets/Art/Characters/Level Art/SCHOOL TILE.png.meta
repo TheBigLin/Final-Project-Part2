@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: bc1e8db3ac2a1d74cb7619066d7aac8a
+guid: 4cc19211ce1c747448e72a5b39700fa3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5257601804609174252
-    second: LOCKER (2)_0
+      213: 8943139046973716474
+    second: SCHOOL TILE_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LOCKER (2)_0
+      name: SCHOOL TILE_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 19
-        width: 48
-        height: 26
+        x: 0
+        y: 10
+        width: 51
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ceabe2e3cf0c6f840800000000000000
-      internalID: 5257601804609174252
+      spriteID: af73bc794996c1c70800000000000000
+      internalID: 8943139046973716474
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      LOCKER (2)_0: 5257601804609174252
+      SCHOOL TILE_0: 8943139046973716474
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

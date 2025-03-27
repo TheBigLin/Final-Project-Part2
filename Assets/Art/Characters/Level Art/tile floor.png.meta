@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4cc19211ce1c747448e72a5b39700fa3
+guid: 90325d08ffbabf64d9b9f05bf84366f2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8943139046973716474
-    second: SCHOOL TILE_0
+      213: 4942727625980076043
+    second: tile floor_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SCHOOL TILE_0
+      name: tile floor_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 10
-        width: 51
-        height: 50
+        y: 177
+        width: 197
+        height: 163
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: af73bc794996c1c70800000000000000
-      internalID: 8943139046973716474
+      spriteID: b006d009698189440800000000000000
+      internalID: 4942727625980076043
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SCHOOL TILE_0: 8943139046973716474
+      tile floor_0: 4942727625980076043
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
