@@ -28,11 +28,6 @@ public class Movement : MonoBehaviour
             direction += Vector2.right;
         }
 
-        if (direction.magnitude > 0)
-        {
-            direction.Normalize();
-        }
-
         Vector3 movement = new Vector3(direction.x, direction.y, 0) * moveSpeed * Time.deltaTime;
         transform.position += movement;
     }
