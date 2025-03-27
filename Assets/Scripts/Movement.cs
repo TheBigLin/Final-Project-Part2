@@ -2,26 +2,15 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
+    public float moveSpeed = 2.0f; // Adjust speed as needed
+    private Vector2 direction = Vector2.zero;
 
-    float moveSpeed = 50.0f;
-
-   
-    Vector2 direction = Vector2.zero;
-    float dt;
-
-
-    void Start()
-    {
-
-        float dt = Time.deltaTime;
-        Vector2 direction = Vector2.zero;
-        Vector3 movement = direction * moveSpeed * dt;
-        transform.position += movement;
-
-    }
     void Update()
     {
+        // Reset direction to zero every frame to avoid accumulating input
+        direction = Vector2.zero;
 
+        // Check for input and update direction
         if (Input.GetKey(KeyCode.W))
         {
             direction += Vector2.up;
@@ -38,5 +27,13 @@ public class Movement : MonoBehaviour
         {
             direction += Vector2.right;
         }
+
+        if (direction.magnitude > 0)
+        {
+            direction.Normalize();
+        }
+
+        Vector3 movement = new Vector3(direction.x, direction.y, 0) * moveSpeed * Time.deltaTime;
+        transform.position += movement;
     }
 }
