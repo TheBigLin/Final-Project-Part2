@@ -6929,7 +6929,7 @@ MonoBehaviour:
   spawnee: {fileID: 7814699600775744397, guid: 1b6f7761c5f359d49bb3efed45a733f4, type: 3}
   sizeX: 3
   sizeY: 3
-  spawnCooldown: 2
+  spawnCooldown: 3
   player: {fileID: 220753485}
 --- !u!1001 &1968718222
 PrefabInstance:
