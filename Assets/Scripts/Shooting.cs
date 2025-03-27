@@ -15,6 +15,13 @@ public class Shooting : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             Shoot();
+
+            Vector3 mouse = Input.mousePosition;
+            mouse = Camera.main.ScreenToWorldPoint(mouse);
+            mouse.z = 0.0f;
+            Vector3 mouseDirection = (mouse - transform.position).normalized;
+            Debug.DrawLine(transform.position, transform.position + mouseDirection * 5.0f);
+
         }
 
 
@@ -25,7 +32,10 @@ public class Shooting : MonoBehaviour
 
           
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-            rb.velocity = transform.right * bulletSpeed; 
+            rb.velocity = transform.right * bulletSpeed;
+
+
+
         }
     }
 
