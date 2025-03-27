@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    public float moveSpeed = 2.0f; // Adjust speed as needed
+    public float moveSpeed = 40.0f; // Adjust speed as needed
     private Vector2 direction = Vector2.zero;
 
     void Update()
