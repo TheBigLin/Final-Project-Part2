@@ -2989,10 +2989,6 @@ PrefabInstance:
       value: School_Wall_Tile
       objectReference: {fileID: 0}
     - target: {fileID: 8355463817679826508, guid: 5be510fe5f636be489f41c1b8019bb1f, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 7.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 8355463817679826508, guid: 5be510fe5f636be489f41c1b8019bb1f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.2
       objectReference: {fileID: 0}
@@ -3030,10 +3026,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8355463817679826508, guid: 5be510fe5f636be489f41c1b8019bb1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8355463817679826508, guid: 5be510fe5f636be489f41c1b8019bb1f, type: 3}
-      propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
