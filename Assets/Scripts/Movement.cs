@@ -2,35 +2,41 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    
+
+    float moveSpeed = 50.0f;
+
+   
+    Vector2 direction = Vector2.zero;
+    float dt;
+
 
     void Start()
     {
-      
-    }
 
+        float dt = Time.deltaTime;
+        Vector2 direction = Vector2.zero;
+        Vector3 movement = direction * moveSpeed * dt;
+        transform.position += movement;
+
+    }
     void Update()
     {
-        float dt = Time.deltaTime;
 
-
-        Vector3 direction = Vector3.zero;
         if (Input.GetKey(KeyCode.W))
         {
-            direction += Vector3.up;
+            direction += Vector2.up;
         }
         if (Input.GetKey(KeyCode.S))
         {
-            direction += Vector3.down;
+            direction += Vector2.down;
         }
         if (Input.GetKey(KeyCode.A))
         {
-            direction += Vector3.left;
+            direction += Vector2.left;
         }
         if (Input.GetKey(KeyCode.D))
         {
-            direction += Vector3.right;
+            direction += Vector2.right;
         }
     }
-         
 }
