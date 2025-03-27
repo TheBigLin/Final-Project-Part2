@@ -2,8 +2,10 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
+    private float horizontal;
     public float moveSpeed = 40.0f; // Adjust speed as needed
     private Vector2 direction = Vector2.zero;
+    private bool FacingRight = true;
 
     void Update()
     {
@@ -27,8 +29,22 @@ public class Movement : MonoBehaviour
         {
             direction += Vector2.right;
         }
-
+  
         Vector3 movement = new Vector3(direction.x, direction.y, 0) * moveSpeed * Time.deltaTime;
         transform.position += movement;
+
+        Flip();
     }
+
+    private void Flip()
+    {
+        if (FacingRight && horizontal < 0f || !FacingRight && horizontal > 0f)
+        {
+            FacingRight = !FacingRight;
+            Vector3 localScale = transform.localScale;
+            localScale.x *= -1f;
+            transform.localScale = localScale;
+        }
+    }
+
 }

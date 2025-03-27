@@ -1226,7 +1226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d0e41bf37150bd46a7415cdca601587, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 20
+  moveSpeed: 15
 --- !u!212 &220753484
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1383,7 +1383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 840508f385d66cf46b4fe7b4fbb62850, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 1058164650949611863, guid: 71b2a8d8232b263408f66d54b787d262, type: 3}
+  bulletPrefab: {fileID: 413881064267009068, guid: ae2ccdeec33b2d44e985f79081b62725, type: 3}
   bulletSpeed: 10
 --- !u!1 &229486903
 GameObject:
