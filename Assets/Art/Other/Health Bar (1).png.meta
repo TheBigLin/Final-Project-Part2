@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 0eb9aabda3b36f949bab5cb0750cfa0b
+guid: f07d075332c466b439d204a60a4990e9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1660650899366448333
-    second: NO BUTTON GAME OVER SCREEN_0
+      213: 4680743257250182613
+    second: Health Bar (1)_0
+  - first:
+      213: -2550369310493185560
+    second: Health Bar (1)_1
+  - first:
+      213: 2089992077329458771
+    second: Health Bar (1)_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +52,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,6 +78,19 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -113,13 +132,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: NO BUTTON GAME OVER SCREEN_0
+      name: Health Bar (1)_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 500
-        height: 500
+        x: 17
+        y: 33
+        width: 32
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +147,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dcc8ba8c131db0710800000000000000
-      internalID: 1660650899366448333
+      spriteID: 5d5b33d513755f040800000000000000
+      internalID: 4680743257250182613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Health Bar (1)_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 33
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9eef1ef944b9cd0800000000000000
+      internalID: -2550369310493185560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Health Bar (1)_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 33
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3566a9898b4210d10800000000000000
+      internalID: 2089992077329458771
       vertices: []
       indices: 
       edges: []
@@ -138,7 +201,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +211,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      NO BUTTON GAME OVER SCREEN_0: 1660650899366448333
+      Health Bar (1)_0: 4680743257250182613
+      Health Bar (1)_1: -2550369310493185560
+      Health Bar (1)_2: 2089992077329458771
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
