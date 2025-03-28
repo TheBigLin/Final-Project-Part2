@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5466490308331103311}
   - component: {fileID: -7347666918977943721}
   - component: {fileID: -1320405952774494627}
-  - component: {fileID: 7277750499948248892}
+  - component: {fileID: 5623534195483554398}
   m_Layer: 0
   m_Name: Alien
   m_TagString: Untagged
@@ -200,7 +200,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &7277750499948248892
+--- !u!114 &5623534195483554398
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
