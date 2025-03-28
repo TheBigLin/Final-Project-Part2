@@ -4,6 +4,7 @@ public class HealthSystem : MonoBehaviour
 {
     [SerializeField] private float startingHealth;
     public float currentHealth;
+    [SerializeField] public GameObject Player;
 
     private void Awake()
     {
@@ -14,20 +15,18 @@ public class HealthSystem : MonoBehaviour
     {
         currentHealth = Mathf.Clamp(currentHealth - _damage, 0, startingHealth);
       
-        if (currentHealth > 0)
+        if (currentHealth <= 0)
         {
-            //player hurt
-        }
-        else
-        {
-            //player dead
+            GameObject.Destroy(Player);
         }
     }
-        
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.E))
+        {
             TakeDamage(1);
+        }
     }
 
  

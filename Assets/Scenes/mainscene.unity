@@ -7794,7 +7794,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHealth: 3
-  currentHealth: 0
+  currentHealth: 3
+  Player: {fileID: 1569650641}
 --- !u!1001 &1598931125
 PrefabInstance:
   m_ObjectHideFlags: 0
