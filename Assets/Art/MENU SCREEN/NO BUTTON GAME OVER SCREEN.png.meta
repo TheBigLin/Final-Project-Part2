@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f666c2956c5c4bb4283d841fd4cc7252
+guid: 0eb9aabda3b36f949bab5cb0750cfa0b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7034815225003269864
-    second: GAME OVER SCREEN_0
+      213: 1660650899366448333
+    second: NO BUTTON GAME OVER SCREEN_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GAME OVER SCREEN_0
+      name: NO BUTTON GAME OVER SCREEN_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 811ab2d23d05f5e90800000000000000
-      internalID: -7034815225003269864
+      spriteID: dcc8ba8c131db0710800000000000000
+      internalID: 1660650899366448333
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      GAME OVER SCREEN_0: -7034815225003269864
+      NO BUTTON GAME OVER SCREEN_0: 1660650899366448333
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
