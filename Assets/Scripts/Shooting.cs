@@ -4,9 +4,6 @@ public class Shooting : MonoBehaviour
 {
 
 
-
-    // Update is called once per frame
-
     public GameObject bulletPrefab;
     public float bulletSpeed = 10f;  // Bullet speed
 
@@ -34,5 +31,6 @@ public class Shooting : MonoBehaviour
         GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         rb.velocity = direction * bulletSpeed;
+        GameObject.Destroy(bullet, 1.0f);
     }
 }
