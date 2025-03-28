@@ -2698,7 +2698,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnee: {fileID: 7814699600775744397, guid: 1b6f7761c5f359d49bb3efed45a733f4, type: 3}
-  spawnee2: {fileID: 0}
   sizeX: 3
   sizeY: 3
   spawnCooldown: 3
@@ -6558,8 +6557,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 45
+  m_fontSizeBase: 45
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6596,7 +6595,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0.8737793}
+  m_margin: {x: -162.90967, y: 0, z: 0, w: 0.8737793}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -9341,7 +9340,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnee: {fileID: 7814699600775744397, guid: 1b6f7761c5f359d49bb3efed45a733f4, type: 3}
-  spawnee2: {fileID: 7864059880521419696, guid: 33b8078c5c11099418212a39b1049db6, type: 3}
   sizeX: 3
   sizeY: 3
   spawnCooldown: 3
