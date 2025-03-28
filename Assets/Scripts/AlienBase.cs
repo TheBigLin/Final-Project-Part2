@@ -9,8 +9,8 @@ public abstract class AlienBase : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collision)
     {
         ScoreScript.scoreValue += 10;
-        Projectile projectile = collision.GetComponent<Projectile>();
-        TakeDamage(projectile.damage);
+        Bullets bullets = collision.GetComponent<Bullets>();
+        TakeDamage(bullets.damage);
         if (health <= 0.0f)
             Destroy(gameObject);            // Destroy the target
         Destroy(collision.gameObject);      // Destroy the bullet
