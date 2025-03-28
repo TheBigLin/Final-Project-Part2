@@ -1,1 +1,2 @@
 C. Smiley ( 16 Jan, 2025) Shooting Script https://github.com/Smiley98/programming-2/tree/86830ef8ecd422156d9a04769e4ce99806f7e01c
+Enemy Spawner in Unity2D in 60 seconds. (n.d.). YouTube. https://www.youtube.com/shorts/3UNDp1TlxdM
