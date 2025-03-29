@@ -1,7 +1,9 @@
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class HealthSystem : MonoBehaviour
 {
+    public string SceneName;
     [SerializeField] private float startingHealth;
     public float currentHealth;
     [SerializeField] public GameObject Player;
@@ -18,16 +20,17 @@ public class HealthSystem : MonoBehaviour
         if (currentHealth <= 0)
         {
             GameObject.Destroy(Player);
+            SceneManager.LoadScene(SceneName);
         }
     }
 
-    private void Update()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (collision.tag == "Player")
         {
             TakeDamage(1);
         }
     }
 
- 
+
 }
