@@ -2,3 +2,4 @@ C. Smiley ( 16 Jan, 2025) Shooting Script https://github.com/Smiley98/programmin
 Enemy Spawner in Unity2D in 60 seconds. (n.d.). YouTube. https://www.youtube.com/shorts/3UNDp1TlxdM
 Pandemonium. (2021, May 29). Unity 2D Platformer for complete beginners - #7 HEALTH SYSTEM [Video]. YouTube. https://www.youtube.com/watch?v=yxzg8jswZ8A
 Alexander Zotov. (2017, April 13). How to add a score counter into your Unity 2D game| Easy Unity 2D Tutorial [Video]. YouTube. https://www.youtube.com/watch?v=QbqnDbexrCw
+Jaxson Richards (2024, Dec 6th). Pause Button Complete. https://github.com/timurkoro/smiley-assignment-2/tree/8a1d28923dc22a28d682757d4c7aa08709724d78 
